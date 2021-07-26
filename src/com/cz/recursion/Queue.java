@@ -2,8 +2,6 @@ package com.cz.recursion;
 
 /**
  * @Description: 八皇后问题
- * @Version:
- * @author: zhuang.chen@hand-china.com
  * @Date: 2021/5/26 11:13
  */
 public class Queue {

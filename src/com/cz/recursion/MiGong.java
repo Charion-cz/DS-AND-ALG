@@ -2,8 +2,6 @@ package com.cz.recursion;
 
 /**
  * @Description: 迷宫问题
- * @Version:
- * @author: zhuang.chen@hand-china.com
  * @Date: 2021/5/25 21:54
  */
 public class MiGong {

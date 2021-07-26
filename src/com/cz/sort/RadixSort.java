@@ -3,9 +3,7 @@ package com.cz.sort;
 import java.util.Arrays;
 
 /**
- * @Description:
- * @Version:
- * @author: zhuang.chen@hand-china.com
+ * @Description: 桶排序
  * @Date: 2021/7/12 16:20
  */
 public class RadixSort {

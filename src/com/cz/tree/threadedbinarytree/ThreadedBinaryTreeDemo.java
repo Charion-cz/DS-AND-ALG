@@ -1,9 +1,7 @@
 package com.cz.tree.threadedbinarytree;
 
 /**
- * @Description:
- * @Version:
- * @author: zhuang.chen@hand-china.com
+ * @Description: 线索化二叉树
  * @Date: 2021/7/25 15:57
  */
 public class ThreadedBinaryTreeDemo {
@@ -55,6 +53,9 @@ class ThreadedBinaryTree{
         this.threadedNodes(root);
     }
 
+    /**
+     * 遍历线索化后的二叉树
+     */
     public void threadedList() {
         HeroNode node = root;
 
@@ -263,7 +264,7 @@ class HeroNode{
 
     /**
      * 前序遍历查找
-     * 先判断当前节点是否符合条件，然后遍历左子树，然后遍历由子树
+     * 先判断当前节点是否符合条件，然后遍历左子树，然后遍历右子树
      * @param no 待查找编号
      * @return 返回节点
      */

@@ -2,10 +2,8 @@ package com.cz.hashTab;
 
 import java.util.Scanner;
 
-/** hashTab实现
- * @Description:
- * @Version:
- * @author: zhuang.chen@hand-china.com
+/**
+ * @Description: hashTab实现
  * @Date: 2021/7/18 16:30
  */
 public class HashTabDemo {

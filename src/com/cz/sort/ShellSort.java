@@ -9,8 +9,6 @@ import java.util.Arrays;
  * 第一层循环是对待排数组进行分组，首先将数组分为arr.length/2组，然后后面每次分组的组数是上一次组数除以2
  * 第二层循环是在第一层循环的基础上遍历每一个组
  * 第三层循环是第二层循环的基础上循环每组的所有数据
- * @Version:
- * @author: zhuang.chen@hand-china.com
  * @Date: 2021/7/4 16:34
  */
 public class ShellSort {

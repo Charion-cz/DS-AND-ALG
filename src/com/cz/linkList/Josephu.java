@@ -2,8 +2,6 @@ package com.cz.linkList;
 
 /**
  * @Description: 约瑟夫环
- * @Version:
- * @author: zhuang.chen@hand-china.com
  * @Date: 2021/5/25 10:35
  */
 public class Josephu {

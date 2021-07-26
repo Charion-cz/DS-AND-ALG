@@ -8,8 +8,6 @@ import java.util.Arrays;
  * 依次比较 相邻元素的值，若发现逆序则交换，使值较大的元素逐渐从前移向后部，就象水底下的气泡一样逐渐向上冒。
  * 因为排序的过程中，各元素不断接近自己的位置，如果一趟比较下来没有进行过交换，就说明序列有序，
  * 因此要在 排序过程中设置一个标志 flag 判断元素是否进行过交换。从而减少不必要的比较。
- * @Version:
- * @author: zhuang.chen@hand-china.com
  * @Date: 2021/5/26 16:09
  */
 public class BubbleSort {

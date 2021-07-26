@@ -2,8 +2,6 @@ package com.cz.tree;
 
 /**
  * @Description: 二叉树
- * @Version:
- * @author: zhuang.chen@hand-china.com
  * @Date: 2021/7/20 11:42
  */
 public class BinaryTreeDemo {

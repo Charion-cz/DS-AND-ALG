@@ -1,9 +1,7 @@
 package com.cz.sparsearray;
 
 /**
- * @Description:
- * @Version:
- * @author: zhuang.chen@hand-china.com
+ * @Description: 稀疏数组
  * @Date: 2021/5/18 16:10
  */
 public class SparseArray {

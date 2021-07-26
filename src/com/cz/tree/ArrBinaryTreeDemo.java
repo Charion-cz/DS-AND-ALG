@@ -1,9 +1,7 @@
 package com.cz.tree;
 
 /**
- * @Description:
- * @Version:
- * @author: zhuang.chen@hand-china.com
+ * @Description: 二叉树
  * @Date: 2021/7/24 14:58
  */
 public class ArrBinaryTreeDemo {

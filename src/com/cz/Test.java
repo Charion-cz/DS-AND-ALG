@@ -4,8 +4,6 @@ import java.util.Arrays;
 
 /**
  * @Description:
- * @Version:
- * @author: zhuang.chen@hand-china.com
  * @Date: 2021/6/30 9:59
  */
 public class Test {

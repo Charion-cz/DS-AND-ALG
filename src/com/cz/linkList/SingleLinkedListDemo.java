@@ -4,8 +4,6 @@ import java.util.Stack;
 
 /**
  * @Description: 单项链表
- * @Version:
- * @author: zhuang.chen@hand-china.com
  * @Date: 2021/5/19 9:35
  */
 public class SingleLinkedListDemo {

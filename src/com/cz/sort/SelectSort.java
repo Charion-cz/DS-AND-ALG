@@ -7,8 +7,6 @@ import java.util.Arrays;
  * 第一次从 arr[0]~arr[n-1]中选取最小值，与 arr[0]交换
  * 第二次从 arr[1]~arr[n-1]中选取最小值，与 arr[1]交换
  * 第三次从 arr[2]~arr[n-1]中选取最小值，与 arr[2]交换…
- * @Version:
- * @author: zhuang.chen@hand-china.com
  * @Date: 2021/5/26 17:44
  */
 public class SelectSort {

@@ -5,8 +5,6 @@ import java.util.Scanner;
 
 /**
  * @Description: 栈 stack
- * @Version:
- * @author: zhuang.chen@hand-china.com
  * @Date: 2021/5/25 15:01
  */
 public class ArrayStackDemo {

@@ -2,8 +2,6 @@ package com.cz.linkList;
 
 /**
  * @Description: 双向链表
- * @Version:
- * @author: zhuang.chen@hand-china.com
  * @Date: 2021/5/25 9:33
  */
 public class DoubleLinkedListDemo {

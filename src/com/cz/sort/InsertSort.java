@@ -8,8 +8,6 @@ import java.util.Arrays;
  * 开始时有序表中只包含一个元素，无序表中包含有 n-1 个元素
  * 排序过程中每次从无序表中取出第一个元素，把它的排序码依次与有序表元素的排序码进行比较
  * 将它插入到有序表中的适当位置，使之成为新的有序表
- * @Version:
- * @author: zhuang.chen@hand-china.com
  * @Date: 2021/5/27 10:49
  */
 public class InsertSort {

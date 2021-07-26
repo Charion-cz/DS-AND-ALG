@@ -8,8 +8,6 @@ package com.cz.queue;
  * 并且这个位置预留为空
  *
  * 由于环的存在，队列中元素的总个数为：(rear - front + maxSize) % maxSize
- * @Version:
- * @author: zhuang.chen@hand-china.com
  * @Date: 2021/5/19 9:01
  */
 public class CircleArrayDemo {

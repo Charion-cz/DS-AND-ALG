@@ -1,9 +1,7 @@
 package com.cz.queue;
 
 /**
- * @Description:
- * @Version:
- * @author: zhuang.chen@hand-china.com
+ * @Description: 队列
  * @Date: 2021/5/18 17:15
  */
 public class ArrayQueueDemo {

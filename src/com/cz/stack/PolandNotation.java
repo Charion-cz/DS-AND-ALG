@@ -6,8 +6,6 @@ import java.util.Stack;
 
 /**
  * @Description: 逆波兰表达式
- * @Version:
- * @author: zhuang.chen@hand-china.com
  * @Date: 2021/5/25 19:40
  */
 public class PolandNotation {

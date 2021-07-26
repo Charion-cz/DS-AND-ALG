@@ -4,9 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @Description:
- * @Version:
- * @author: zhuang.chen@hand-china.com
+ * @Description: 二分查找
  * @Date: 2021/7/13 11:50
  */
 public class BinarySearch {
