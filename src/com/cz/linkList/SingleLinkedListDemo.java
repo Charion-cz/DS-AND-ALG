@@ -4,6 +4,7 @@ import java.util.Stack;
 
 /**
  * @Description: 单项链表
+ * 这里的单链表的头结点是空
  * @Date: 2021/5/19 9:35
  */
 public class SingleLinkedListDemo {
@@ -29,17 +30,17 @@ public class SingleLinkedListDemo {
         singleLinkedList.list();
 
         int length = singleLinkedList.getLength(singleLinkedList.getHead());
-//        System.out.println( length);
+        System.out.println( length);
         HeroNode indexNode = singleLinkedList.findIndexNode(singleLinkedList.getHead(), 1);
-//        System.out.println(indexNode);
+        System.out.println(indexNode);
 
-//        reverseNode(singleLinkedList.getHead());
-//        HeroNode newHeroNode = new HeroNode(2, "小卢", "玉麒麟~~");
-//        singleLinkedList.update(newHeroNode);
+        reverseNode(singleLinkedList.getHead());
+        HeroNode newHeroNode = new HeroNode(2, "小卢", "玉麒麟~~");
+        singleLinkedList.update(newHeroNode);
 
-//        singleLinkedList.del(4);
-//        // 遍历
-//        singleLinkedList.list();
+        singleLinkedList.del(4);
+        // 遍历
+        singleLinkedList.list();
     }
 
     // 逆序输出单链表的所有节点
@@ -47,7 +48,7 @@ public class SingleLinkedListDemo {
         if (head.next == null) {
             return;
         }
-        Stack<HeroNode> stack = new Stack<HeroNode>();
+        Stack<HeroNode> stack = new Stack<>();
         HeroNode cur = head.next;
         while (cur.next != null){
             stack.push(cur);
@@ -92,7 +93,7 @@ class SingleLinkedList{
         HeroNode temp = head;
         boolean flag = false; // 标志添加的编号是否存在，默认为false
         while (true){
-            // 表示heroNode最大
+            // 表示temp已经在链表最后了
             if(temp.next == null){
                 break;
             }
@@ -193,7 +194,7 @@ class SingleLinkedList{
         }
     }
 
-    // 显示链表长度
+    // 显示链表长度,不包括头结点
     public int getLength(HeroNode head) {
         HeroNode temp = head;
         if(temp.next == null) {
@@ -207,16 +208,16 @@ class SingleLinkedList{
         return length;
     }
 
-    // 找到倒数第k个节点
+    // 找到倒数第k个节点，倒数第k个和顺数第size() - index是同一个
     public HeroNode findIndexNode(HeroNode head,int index){
-        HeroNode temp = head.next;
-        if (temp.next == null) {
+        if (head.next == null) {
             return null;
         }
         int length = getLength(head);
         if (index <= 0 || index > length) {
             return null;
         }
+        HeroNode temp = head.next;
         for (int i = 0; i < length - index; i++){
             temp = temp.next;
         }

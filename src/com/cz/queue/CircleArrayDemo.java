@@ -45,6 +45,8 @@ class CircleArray{
             System.out.println("队列满了~~");
             return;
         }
+        // 当队列没满时，rear指向的就不是最后一个空位置
+        // 所以可以直接在rear上添加，然后将rear指向下一个空位置
         arr[rear] = n;
         rear = (rear + 1) % maxSize;
     }

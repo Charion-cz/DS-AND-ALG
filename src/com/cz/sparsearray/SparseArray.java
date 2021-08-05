@@ -13,6 +13,7 @@ public class SparseArray {
         chessArray[3][4] = 2;
 
         int sum = 0;
+        // 记录原数组中有效数据的个数
         for (int[] row : chessArray ){
             for (int data : row){
                 System.out.printf("%d\t", data);
@@ -23,6 +24,10 @@ public class SparseArray {
             System.out.println();
         }
 
+        // 定义稀疏数组，共有sum+1行
+        // 第一行第一个数据表示原数组的行数
+        // 第二个数据表示原数组的列数
+        // 第三个数据表示有效数据的个数
         int sparseArr[][] = new int[sum+1][3];
         sparseArr[0][0] = 11;
         sparseArr[0][1] = 11;
@@ -30,6 +35,7 @@ public class SparseArray {
 
         int count = 0;
 
+        // 将数据输出为稀疏数组
         for (int i = 0; i< chessArray.length; i++){
             for(int j = 0; j < chessArray.length; j++){
                 if (chessArray[i][j] != 0){
@@ -49,6 +55,7 @@ public class SparseArray {
 
         int chessArray2[][] = new int[sparseArr[0][0]][sparseArr[0][1]];
 
+        // 将稀疏数组转换为普通数组
         for (int i = 1; i < sparseArr.length; i++){
             chessArray2[sparseArr[i][0]][sparseArr[i][1]] = sparseArr[i][2];
         }
